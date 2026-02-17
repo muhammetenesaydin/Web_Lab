@@ -1,14 +1,12 @@
 function App() {
     return (
-        <div className="container">
-            <h1>Web Tasarimi ve Programlama</h1>
-            <h2>LAB-1</h2>
-            <p>Ad Soyad: [Enes ...]</p>
-            <p>Ogrenci No: [Numaraniz]</p>
-            <p>Bolum: Bilgisayar Muhendisligi</p>
-            <p>Hobiler: Kodlama, Satranc, Muzik</p>
+        <div>
+            <h1>Web Tasarımı ve Programlama</h1>
+            <h2>LAB - 1</h2>
+            <p>Ad Soyad: Enes Aydın</p>
+            <p>Öğrenci No: 230541102</p>
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
