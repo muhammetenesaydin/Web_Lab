@@ -4,8 +4,8 @@
 Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda Vite + React + TypeScript kullanilarak olusturulmustur.
 
 ## Gelistirici
-- **Ad Soyad:** [Enes ...]
-- **Ogrenci No:** [Numaraniz]
+- **Ad Soyad:** [xxx ...]
+- **Ogrenci No:** [xxxx]
 
 ## Kullanilan Teknolojiler
 - React 18
