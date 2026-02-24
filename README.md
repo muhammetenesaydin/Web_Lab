@@ -25,5 +25,5 @@ Tarayicida http://localhost:5173 adresini ac.
 
 ## Ekran Goruntusu
 ---
-!(images/1.png)
+!(images/lab2.png)
 ---
