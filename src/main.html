@@ -1,104 +1,100 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <title>Kişisel Web Sitesi</title>
 
-    <!-- CSS bağlantısı -->
-    <link rel="stylesheet" href="main.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Kişisel Web Sitesi</title>
+
+  <!-- CSS bağlantısı -->
+  <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
 
-<a href="#main-content" class="skip-link">Ana icerige atla</a>
+  <a href="#main-content" class="skip-link">Ana icerige atla</a>
 
-<header>
-  <nav aria-label="Ana navigasyon">
-    <!-- menü burada -->
-  </nav>
-</header>
-<header>
-    <h1>Ahmet Yılmaz Kişisel Web Sitesi</h1>
+
+  <header>
+    <h1>Muhammet Enes Aydın Kişisel Web Sitesi</h1>
     <nav aria-label="Ana navigasyon">
-        <ul>
-            <li><a href="#hakkimda">Hakkımda</a></li>
-            <li><a href="#projeler">Projeler</a></li>
-            <li><a href="#iletisim">İletişim</a></li>
-        </ul>
+      <ul>
+        <li><a href="#hakkimda">Hakkımda</a></li>
+        <li><a href="#projeler">Projeler</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<main>
+  <main id="main-content">
     <section id="hakkimda">
-        <h2>Hakkımda</h2>
+      <h2>Hakkımda</h2>
 
-        <figure>
-            <img src="profil.jpg" alt="Ahmet Yılmaz'ın portre fotoğrafı">
-            <figcaption>Muhammet Enes Aydın</figcaption>
-        </figure>
+      <figure>
+        <img src="profil.jpg" alt="Muhammet Enes Aydın'ın portresi">
+        <figcaption>Muhammet Enes Aydın</figcaption>
+      </figure>
 
-        <p>Ben yazilim geliştirme ile ilgilenen bir öğrenciyim...</p>
+      <p>Ben yazilim geliştirme ile ilgilenen bir öğrenciyim...</p>
     </section>
 
     <section id="projeler">
-        <h2>Projelerim</h2>
+      <h2>Projelerim</h2>
 
-        <figure>
-            <img src="proje1.jpg" alt="Robot kontrol arayüzü ekran görüntüsü">
-            <figcaption>Otonom Robot Kontrol Paneli</figcaption>
-        </figure>
+      <figure>
+        <img src="proje1.jpg" alt="Robot kontrol arayüzü">
+        <figcaption>Otonom Robot Kontrol Paneli</figcaption>
+      </figure>
 
-        <figure>
-            <img src="proje2.jpg" alt="Derinlik kamerası ile haritalama uygulaması ekran görüntüsü">
-            <figcaption>3B Haritalama Projesi</figcaption>
-        </figure>
+      <figure>
+        <img src="proje2.jpg" alt="Derinlik kamerası ile haritalama uygulaması">
+        <figcaption>3B Haritalama Projesi</figcaption>
+      </figure>
 
     </section>
 
     <section id="iletisim">
-        <h2>İletişim</h2>
-            <form action="#" method="POST" novalidate>
-  <fieldset>
-    <legend>Iletisim Formu</legend>
+      <h2>İletişim</h2>
+      <form action="#" method="POST" novalidate>
+        <fieldset>
+          <legend>Iletisim Formu</legend>
 
-    <div class="form-group">
-      <label for="name">Ad Soyad:</label>
-      <input type="text" id="name" name="name" required minlength="2" 
-             aria-describedby="name-error" />
-      <small id="name-error" class="error-msg" role="alert"></small>
-    </div>
+          <div class="form-group">
+            <label for="name">Ad Soyad:</label>
+            <input type="text" id="name" name="name" required minlength="2" aria-describedby="name-error" />
+            <small id="name-error" class="error-msg" role="alert"></small>
+          </div>
 
-    <div class="form-group">
-      <label for="email">E-posta:</label>
-      <input type="email" id="email" name="email" required 
-             aria-describedby="email-error" />
-      <small id="email-error" class="error-msg" role="alert"></small>
-    </div>
+          <div class="form-group">
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required aria-describedby="email-error" />
+            <small id="email-error" class="error-msg" role="alert"></small>
+          </div>
 
-    <div class="form-group">
-      <label for="subject">Konu:</label>
-      <select id="subject" name="subject" required aria-describedby="subject-error">
-        <option value="">Seçiniz</option>
-        <option value="is">Is Teklifi</option>
-        <option value="soru">Soru</option>
-        <option value="oneri">Oneri</option>
-      </select>
-      <small id="subject-error" class="error-msg" role="alert"></small>
-    </div>
+          <div class="form-group">
+            <label for="subject">Konu:</label>
+            <select id="subject" name="subject" required aria-describedby="subject-error">
+              <option value="">Seçiniz</option>
+              <option value="is">Is Teklifi</option>
+              <option value="soru">Soru</option>
+              <option value="oneri">Oneri</option>
+            </select>
+            <small id="subject-error" class="error-msg" role="alert"></small>
+          </div>
 
-    <div class="form-group">
-      <label for="message">Mesajiniz:</label>
-      <textarea id="message" name="message" rows="5" required minlength="10"
-                aria-describedby="message-error"></textarea>
-      <small id="message-error" class="error-msg" role="alert"></small>
-    </div>
+          <div class="form-group">
+            <label for="message">Mesajiniz:</label>
+            <textarea id="message" name="message" rows="5" required minlength="10"
+              aria-describedby="message-error"></textarea>
+            <small id="message-error" class="error-msg" role="alert"></small>
+          </div>
 
-    <button type="submit">Gonder</button>
-  </fieldset>
-</form>
-        <p>Email: ahmet@example.com</p>
+          <button type="submit">Gonder</button>
+        </fieldset>
+      </form>
+      <p>Email: ahmet@example.com</p>
     </section>
-</main>
+  </main>
 
-<footer>
-    <p>&copy; 2025 Ahmet Yılmaz. Tüm hakları saklıdır.</p>
-</footer>
+  <footer>
+    <p>&copy; 2025 Muhammet Enes Aydın. Tüm hakları saklıdır.</p>
+  </footer>
