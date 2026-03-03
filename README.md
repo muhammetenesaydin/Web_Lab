@@ -55,9 +55,9 @@ Tarayicida http://localhost:5173 adresini ac.
 ## Ekran Goruntusu
 ---
 ![Lab resmi1](images/lab2.jpeg)
-![Lab resmi2](images/lab3_1.jpeg)
-![Lab resmi3](images/lab3_3.jpeg)
-![Lab resmi4](images/lab3_2.jpeg)
+![Lab resmi2](images/lab3_1.png)
+![Lab resmi3](images/lab3_3.png)
+![Lab resmi4](images/lab3_2.png)
 ---
 
 
