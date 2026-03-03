@@ -26,14 +26,16 @@ Mobile-First Yaklaşımı: Tasarım önce mobil cihazlar için optimize edildi, 
 # Proje Yapısı
 Plaintext
 
+```plaintext
 /
 ├── index.html          # Semantik HTML yapısı
 ├── src/
 │   ├── main.css        # Ana layout ve responsive kurallar
 │   └── styles/
-│       └── token.css   # Tasarım değişkenleri ve fluid typography
+│       └── tokens.css  # Tasarım değişkenleri ve fluid typography
 └── images/             # Proje görselleri ve profil fotoğrafı
-Kurulum ve Çalıştırma
+```
+## Kurulum ve Çalıştırma
 Projeyi yerel makinenizde görüntülemek için dosyaları bir sunucu (örneğin VS Code Live Server) üzerinden açmanız yeterlidir.
 
 ## Kullanilan Teknolojiler
